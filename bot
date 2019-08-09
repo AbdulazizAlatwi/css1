@@ -137,7 +137,7 @@ install() {
          telegram-cli بارگیری <<
  >> Fetching $TDCLI
 "
-      wget "$TDCLI" -O telegram-cli
+      wget --no-check-certificate "$TDCLI" -O telegram-cli
       chmod +x telegram-cli
       prtgrn "
      ارتقای اطلاعات قدیمی <<
